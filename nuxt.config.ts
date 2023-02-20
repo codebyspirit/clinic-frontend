@@ -26,7 +26,6 @@ export default defineNuxtConfig({
         { src: "/libs/jquery/jquery.min.js", body: true },
         { src: "/libs/bootstrap/js/bootstrap.bundle.min.js", body: true },
         { src: "/libs/metismenu/metisMenu.min.js", body: true },
-        // { src: "/libs/simplebar/simplebar.min.js", body: true },
         { src: "/libs/node-waves/waves.min.js", body: true },
         { src: "/js/app.js", body: true },
       ],

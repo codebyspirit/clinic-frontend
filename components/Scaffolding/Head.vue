@@ -4,23 +4,23 @@
       <div class="d-flex">
         <!-- LOGO -->
         <div class="navbar-brand-box">
-          <a href="index.html" class="logo logo-dark">
+          <nuxt-link to="/" class="logo logo-dark">
             <span class="logo-sm">
-              <img src="images/logo.svg" alt="" height="22" />
+              <img src="/images/logo.svg" alt="" height="22" />
             </span>
             <span class="logo-lg">
-              <img src="images/logo-dark.png" alt="" height="17" />
+              <img src="/images/logo-dark.png" alt="" height="17" />
             </span>
-          </a>
+          </nuxt-link>
 
-          <a href="index.html" class="logo logo-light">
+          <nuxt-link to="/" class="logo logo-light">
             <span class="logo-sm">
-              <img src="images/logo-light.svg" alt="" height="22" />
+              <img src="/images/logo-light.svg" alt="" height="22" />
             </span>
             <span class="logo-lg">
-              <img src="images/logo-light.png" alt="" height="19" />
+              <img src="/images/logo-light.png" alt="" height="19" />
             </span>
-          </a>
+          </nuxt-link>
         </div>
 
         <button
@@ -32,12 +32,6 @@
         </button>
 
         <!-- App Search-->
-        <form class="app-search d-none d-lg-block">
-          <div class="position-relative">
-            <input type="text" class="form-control" placeholder="Search..." />
-            <span class="bx bx-search-alt"></span>
-          </div>
-        </form>
 
         <div class="dropdown dropdown-mega d-none d-lg-block ms-2">
           <button
@@ -164,7 +158,11 @@
 
                   <div class="col-sm-5">
                     <div>
-                      <img src="images/megamenu-img.png" alt="" class="img-fluid mx-auto d-block" />
+                      <img
+                        src="/images/megamenu-img.png"
+                        alt=""
+                        class="img-fluid mx-auto d-block"
+                      />
                     </div>
                   </div>
                 </div>
@@ -218,35 +216,40 @@
             aria-haspopup="true"
             aria-expanded="false"
           >
-            <img id="header-lang-img" src="images/flags/us.jpg" alt="Header Language" height="16" />
+            <img
+              id="header-lang-img"
+              src="/images/flags/us.jpg"
+              alt="Header Language"
+              height="16"
+            />
           </button>
           <div class="dropdown-menu dropdown-menu-end">
             <!-- item-->
             <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="en">
-              <img src="images/flags/us.jpg" alt="user-image" class="me-1" height="12" />
+              <img src="/images/flags/us.jpg" alt="user-image" class="me-1" height="12" />
               <span class="align-middle">English</span>
             </a>
             <!-- item-->
             <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="sp">
-              <img src="images/flags/spain.jpg" alt="user-image" class="me-1" height="12" />
+              <img src="/images/flags/spain.jpg" alt="user-image" class="me-1" height="12" />
               <span class="align-middle">Spanish</span>
             </a>
 
             <!-- item-->
             <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="gr">
-              <img src="images/flags/germany.jpg" alt="user-image" class="me-1" height="12" />
+              <img src="/images/flags/germany.jpg" alt="user-image" class="me-1" height="12" />
               <span class="align-middle">German</span>
             </a>
 
             <!-- item-->
             <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="it">
-              <img src="images/flags/italy.jpg" alt="user-image" class="me-1" height="12" />
+              <img src="/images/flags/italy.jpg" alt="user-image" class="me-1" height="12" />
               <span class="align-middle">Italian</span>
             </a>
 
             <!-- item-->
             <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="ru">
-              <img src="images/flags/russia.jpg" alt="user-image" class="me-1" height="12" />
+              <img src="/images/flags/russia.jpg" alt="user-image" class="me-1" height="12" />
               <span class="align-middle">Russian</span>
             </a>
           </div>
@@ -267,19 +270,19 @@
               <div class="row g-0">
                 <div class="col">
                   <a class="dropdown-icon-item" href="#">
-                    <img src="images/brands/github.png" alt="Github" />
+                    <img src="/images/brands/github.png" alt="Github" />
                     <span>GitHub</span>
                   </a>
                 </div>
                 <div class="col">
                   <a class="dropdown-icon-item" href="#">
-                    <img src="images/brands/bitbucket.png" alt="bitbucket" />
+                    <img src="/images/brands/bitbucket.png" alt="bitbucket" />
                     <span>Bitbucket</span>
                   </a>
                 </div>
                 <div class="col">
                   <a class="dropdown-icon-item" href="#">
-                    <img src="images/brands/dribbble.png" alt="dribbble" />
+                    <img src="/images/brands/dribbble.png" alt="dribbble" />
                     <span>Dribbble</span>
                   </a>
                 </div>
@@ -288,19 +291,19 @@
               <div class="row g-0">
                 <div class="col">
                   <a class="dropdown-icon-item" href="#">
-                    <img src="images/brands/dropbox.png" alt="dropbox" />
+                    <img src="/images/brands/dropbox.png" alt="dropbox" />
                     <span>Dropbox</span>
                   </a>
                 </div>
                 <div class="col">
                   <a class="dropdown-icon-item" href="#">
-                    <img src="images/brands/mail_chimp.png" alt="mail_chimp" />
+                    <img src="/images/brands/mail_chimp.png" alt="mail_chimp" />
                     <span>Mail Chimp</span>
                   </a>
                 </div>
                 <div class="col">
                   <a class="dropdown-icon-item" href="#">
-                    <img src="images/brands/slack.png" alt="slack" />
+                    <img src="/images/brands/slack.png" alt="slack" />
                     <span>Slack</span>
                   </a>
                 </div>
@@ -345,7 +348,7 @@
                 </div>
               </div>
             </div>
-            <div data-simplebar style="max-height: 230px">
+            <div class="overflow-auto" style="max-height: 230px">
               <a href="javascript: void(0);" class="text-reset notification-item">
                 <div class="d-flex">
                   <div class="avatar-xs me-3">
@@ -367,7 +370,7 @@
               <a href="javascript: void(0);" class="text-reset notification-item">
                 <div class="d-flex">
                   <img
-                    src="images/users/avatar-3.jpg"
+                    src="/images/users/avatar-3.jpg"
                     class="me-3 rounded-circle avatar-xs"
                     alt="user-pic"
                   />
@@ -401,11 +404,10 @@
                   </div>
                 </div>
               </a>
-
               <a href="javascript: void(0);" class="text-reset notification-item">
                 <div class="d-flex">
                   <img
-                    src="images/users/avatar-4.jpg"
+                    src="/images/users/avatar-4.jpg"
                     class="me-3 rounded-circle avatar-xs"
                     alt="user-pic"
                   />
@@ -444,7 +446,7 @@
           >
             <img
               class="rounded-circle header-profile-user"
-              src="images/users/avatar-1.jpg"
+              src="/images/users/avatar-1.jpg"
               alt="Header Avatar"
             />
             <span class="d-none d-xl-inline-block ms-1" key="t-henry">Henry</span>
